@@ -27,8 +27,8 @@ def branch_medal(**context):
 
 
 def generate_delay():
-    time.sleep(10)
-
+    #time.sleep(10)
+    time.sleep(35)  # Simulate a delay of 35 seconds to test the sensor's timeout behavior
 
 dag = DAG(
     dag_id="olympic_medals_dag",
